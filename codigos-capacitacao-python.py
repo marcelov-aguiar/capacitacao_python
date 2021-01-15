@@ -114,6 +114,15 @@ print(matriz[0][0])
 matriz[0][0] = 2
 print(matriz)
 
+matriz = []
+for i in range(0,3):
+    aux = []
+    for j in range(0,3):
+        num = int(input("Digite um numero a ser inserido na matriz: "))
+        aux.append(num)
+    matriz.append(aux)
+print(matriz)
+
 
 #Manipulação de arquivos
 f = open("palavras.txt","r")
